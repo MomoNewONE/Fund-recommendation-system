@@ -17,13 +17,11 @@ urlpatterns=[
     path('views/', views.your_view, name='your_view'),
     path('views2/', views.view_s),
     path('match/', views.match,name='match'),
-    path('match2/', views.match2,name='match2'),
     path('matchdata/', views.match_data, name='match_data'),
     # path('matchresult/', views.get_latest_newmatch_values, name='matchresult'),
     path('matchre/', views.match_views,name="matchre"),
     path('Rresult/', views.Rresult,name="Rresult"),
     path('wait/', views.wait,name="wait"),
-    path('wait2/', views.wait2,name="wait2"),
     path('resultmatch/', views.resultmatch,name="resultmatch"),
 
 ]

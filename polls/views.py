@@ -134,10 +134,6 @@ def resultmatch(request):
     return render(request,'resultmatch.html')
 def wait(request):
     return render(request,'wait.html')
-def wait2(request):
-    return render(request,'wait2.html')
-def match2(request):
-    return render(request,'match2.html')
 def match(request):
     return render(request,'match.html')
 def view_s(request):
